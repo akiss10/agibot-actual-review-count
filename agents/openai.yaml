@@ -1,0 +1,7 @@
+interface:
+  display_name: "AGIBOT 实际验收统计"
+  short_description: "按 AGIBOT Task ID 查询并计算实际验收条数"
+  default_prompt: "使用 $agibot-actual-review-count 计算这些 Task ID 的实际验收条数。"
+
+policy:
+  allow_implicit_invocation: true
